@@ -7,7 +7,7 @@ int main() {
     scanf("%d", &num);
 
     if (num < 0)
-        num = -num;  // Make number positive if negative
+        num = -num; 
 
     while (num > 0) {
         digit = num % 10;
@@ -19,3 +19,4 @@ int main() {
 
     return 0;
 }
+
