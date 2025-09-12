@@ -8,9 +8,7 @@ int main() {
 
     original = num;
 
-    if (num < 0)
-        num = -num;
-
+  
     while (num != 0) {
         digit = num % 10;
         reversed = reversed * 10 + digit;
@@ -24,3 +22,4 @@ int main() {
 
     return 0;
 }
+
